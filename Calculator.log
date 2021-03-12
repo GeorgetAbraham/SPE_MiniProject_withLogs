@@ -1,22 +1,482 @@
-2021-03-12 12:33:41.014 [Calculator.java] INFO  Calculator - Factorial for number: 5
-2021-03-12 12:33:41.018 [Calculator.java] INFO  Calculator - Factorial for number: 4
-2021-03-12 12:33:41.018 [Calculator.java] INFO  Calculator - Factorial for number: 3
-2021-03-12 12:33:41.019 [Calculator.java] INFO  Calculator - Factorial for number: 2
-2021-03-12 12:33:41.019 [Calculator.java] INFO  Calculator - Factorial for number: 1
-2021-03-12 15:28:40.521 [Calculator.java] INFO  Calculator - Factorial for number: 5
-2021-03-12 15:28:40.525 [Calculator.java] INFO  Calculator - Factorial for number: 4
-2021-03-12 15:28:40.525 [Calculator.java] INFO  Calculator - Factorial for number: 3
-2021-03-12 15:28:40.526 [Calculator.java] INFO  Calculator - Factorial for number: 2
-2021-03-12 15:28:40.526 [Calculator.java] INFO  Calculator - Factorial for number: 1
-2021-03-12 15:29:06.894 [Calculator.java] INFO  Calculator - Factorial for number: 5
-2021-03-12 15:29:06.900 [Calculator.java] INFO  Calculator - Factorial for number: 4
-2021-03-12 15:29:06.900 [Calculator.java] INFO  Calculator - Factorial for number: 3
-2021-03-12 15:29:06.901 [Calculator.java] INFO  Calculator - Factorial for number: 2
-2021-03-12 15:29:06.901 [Calculator.java] INFO  Calculator - Factorial for number: 1
-2021-03-12 15:31:27.886 [Calculator.java] INFO  Calculator - Natural log for number: 10.0
-2021-03-12 17:14:05.120 [Calculator.java] INFO  Calculator - Exponentiation of: 4.0 with 5.0
-2021-03-12 19:37:57,131 [Calculator.java] INFO  Calculator - Factorial for number: 5
-2021-03-12 19:37:57,167 [Calculator.java] INFO  Calculator - Factorial for number: 4
-2021-03-12 19:37:57,168 [Calculator.java] INFO  Calculator - Factorial for number: 3
-2021-03-12 19:37:57,168 [Calculator.java] INFO  Calculator - Factorial for number: 2
-2021-03-12 19:37:57,169 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 00:38:45.168 [Calculator.java] INFO  Calculator - [Square root of : -2.0
+2021-03-13 00:38:45.175 [Calculator.java] INFO  Calculator - Result of Square root : NaN]
+2021-03-13 00:39:27.571 [Calculator.java] INFO  Calculator - [Square root of : 4.0
+2021-03-13 00:39:27.581 [Calculator.java] INFO  Calculator - Result of Square root : 2.0]
+2021-03-13 00:39:31.946 [Calculator.java] INFO  Calculator - [Log of : 2.3
+2021-03-13 00:39:31.947 [Calculator.java] INFO  Calculator - Result of Log: 0.8329091229351039]
+2021-03-13 00:39:40.633 [Calculator.java] INFO  Calculator - FACTORIAL OF 5
+2021-03-13 00:39:40.634 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 00:39:40.636 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 00:39:40.638 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 00:39:40.640 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 00:39:40.642 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 00:39:40.644 [Calculator.java] INFO  Calculator - RESULT OF FACTORIAL IS 120
+2021-03-13 00:40:06.713 [Calculator.java] ERROR Calculator - Non positive number log does not exist
+2021-03-13 00:40:22.583 [Calculator.java] INFO  Calculator - [ 0.0 powers 0.0
+2021-03-13 00:40:22.584 [Calculator.java] ERROR Calculator - Illegal operation of 0 power 0]
+2021-03-13 00:40:29.472 [Calculator.java] INFO  Calculator - EXITING APPLICATION
+2021-03-13 01:21:19.248 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:21:19.255 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:21:19.256 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:21:19.256 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:25:33.476 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:25:33.483 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:25:33.483 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:25:33.484 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:25:33.486 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:25:33.487 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:25:33.487 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:25:33.487 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:30:31.078 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:30:31.083 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:30:31.084 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:30:31.084 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:30:31.131 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:30:31.131 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:30:31.131 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:30:31.132 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:30:46.744 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:30:46.750 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:30:46.750 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:30:46.751 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:31:29.534 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:31:29.554 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:31:29.554 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:31:29.555 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:31:29.557 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:31:29.559 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:31:29.559 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:31:29.559 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:35:05.621 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:35:05.627 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:35:05.627 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:35:05.627 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:35:05.628 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:35:05.631 [Calculator.java] INFO  Calculator - [Square root of : 7.0
+2021-03-13 01:35:05.632 [Calculator.java] INFO  Calculator - Result of Square root : 2.6457513110645907]
+2021-03-13 01:35:05.642 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:05.642 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:05.642 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:35:05.643 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:35:05.644 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:05.644 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:05.645 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:35:05.645 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:35:05.646 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:05.646 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:05.646 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:35:05.647 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:35:54.581 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:35:54.586 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:35:54.587 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:35:54.587 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:35:54.588 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:35:54.588 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:35:54.588 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:35:54.589 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:35:54.589 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:35:54.589 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:35:54.590 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:35:54.590 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:35:54.621 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:54.621 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:54.622 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:35:54.622 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:35:54.623 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:54.624 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:54.624 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:35:54.624 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:35:54.625 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:35:54.625 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:35:54.626 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:35:54.626 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:36:38.313 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:36:38.325 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:36:38.326 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:36:38.327 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:36:38.327 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:36:38.328 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:36:38.329 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:36:38.330 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:36:38.330 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:36:38.331 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:36:38.331 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:36:38.331 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:36:38.343 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:36:38.343 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:36:38.344 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:36:38.344 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:36:38.345 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:36:38.345 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:36:38.346 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:36:38.346 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:36:38.349 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:36:38.352 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:36:38.352 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:36:38.352 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:39:55.452 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:39:55.458 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:39:55.458 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:39:55.459 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:39:55.459 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:39:55.459 [Calculator.java] INFO  Calculator - Factorial for number: 0
+2021-03-13 01:39:55.460 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:39:55.460 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:39:55.461 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:39:55.461 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:39:55.461 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:39:55.462 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:39:55.462 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:39:55.465 [Calculator.java] INFO  Calculator - Factorial for number: 50
+2021-03-13 01:39:55.465 [Calculator.java] INFO  Calculator - Factorial for number: 49
+2021-03-13 01:39:55.465 [Calculator.java] INFO  Calculator - Factorial for number: 48
+2021-03-13 01:39:55.466 [Calculator.java] INFO  Calculator - Factorial for number: 47
+2021-03-13 01:39:55.466 [Calculator.java] INFO  Calculator - Factorial for number: 46
+2021-03-13 01:39:55.467 [Calculator.java] INFO  Calculator - Factorial for number: 45
+2021-03-13 01:39:55.467 [Calculator.java] INFO  Calculator - Factorial for number: 44
+2021-03-13 01:39:55.467 [Calculator.java] INFO  Calculator - Factorial for number: 43
+2021-03-13 01:39:55.468 [Calculator.java] INFO  Calculator - Factorial for number: 42
+2021-03-13 01:39:55.468 [Calculator.java] INFO  Calculator - Factorial for number: 41
+2021-03-13 01:39:55.468 [Calculator.java] INFO  Calculator - Factorial for number: 40
+2021-03-13 01:39:55.469 [Calculator.java] INFO  Calculator - Factorial for number: 39
+2021-03-13 01:39:55.469 [Calculator.java] INFO  Calculator - Factorial for number: 38
+2021-03-13 01:39:55.469 [Calculator.java] INFO  Calculator - Factorial for number: 37
+2021-03-13 01:39:55.470 [Calculator.java] INFO  Calculator - Factorial for number: 36
+2021-03-13 01:39:55.470 [Calculator.java] INFO  Calculator - Factorial for number: 35
+2021-03-13 01:39:55.470 [Calculator.java] INFO  Calculator - Factorial for number: 34
+2021-03-13 01:39:55.471 [Calculator.java] INFO  Calculator - Factorial for number: 33
+2021-03-13 01:39:55.471 [Calculator.java] INFO  Calculator - Factorial for number: 32
+2021-03-13 01:39:55.471 [Calculator.java] INFO  Calculator - Factorial for number: 31
+2021-03-13 01:39:55.472 [Calculator.java] INFO  Calculator - Factorial for number: 30
+2021-03-13 01:39:55.472 [Calculator.java] INFO  Calculator - Factorial for number: 29
+2021-03-13 01:39:55.472 [Calculator.java] INFO  Calculator - Factorial for number: 28
+2021-03-13 01:39:55.473 [Calculator.java] INFO  Calculator - Factorial for number: 27
+2021-03-13 01:39:55.473 [Calculator.java] INFO  Calculator - Factorial for number: 26
+2021-03-13 01:39:55.474 [Calculator.java] INFO  Calculator - Factorial for number: 25
+2021-03-13 01:39:55.474 [Calculator.java] INFO  Calculator - Factorial for number: 24
+2021-03-13 01:39:55.475 [Calculator.java] INFO  Calculator - Factorial for number: 23
+2021-03-13 01:39:55.475 [Calculator.java] INFO  Calculator - Factorial for number: 22
+2021-03-13 01:39:55.476 [Calculator.java] INFO  Calculator - Factorial for number: 21
+2021-03-13 01:39:55.476 [Calculator.java] INFO  Calculator - Factorial for number: 20
+2021-03-13 01:39:55.477 [Calculator.java] INFO  Calculator - Factorial for number: 19
+2021-03-13 01:39:55.477 [Calculator.java] INFO  Calculator - Factorial for number: 18
+2021-03-13 01:39:55.477 [Calculator.java] INFO  Calculator - Factorial for number: 17
+2021-03-13 01:39:55.478 [Calculator.java] INFO  Calculator - Factorial for number: 16
+2021-03-13 01:39:55.478 [Calculator.java] INFO  Calculator - Factorial for number: 15
+2021-03-13 01:39:55.478 [Calculator.java] INFO  Calculator - Factorial for number: 14
+2021-03-13 01:39:55.479 [Calculator.java] INFO  Calculator - Factorial for number: 13
+2021-03-13 01:39:55.479 [Calculator.java] INFO  Calculator - Factorial for number: 12
+2021-03-13 01:39:55.479 [Calculator.java] INFO  Calculator - Factorial for number: 11
+2021-03-13 01:39:55.480 [Calculator.java] INFO  Calculator - Factorial for number: 10
+2021-03-13 01:39:55.480 [Calculator.java] INFO  Calculator - Factorial for number: 9
+2021-03-13 01:39:55.480 [Calculator.java] INFO  Calculator - Factorial for number: 8
+2021-03-13 01:39:55.481 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:39:55.481 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:39:55.481 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:39:55.481 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:39:55.482 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:39:55.482 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:39:55.482 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:39:55.483 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:39:55.483 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:39:55.484 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:39:55.487 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:39:55.488 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:39:55.489 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:39:55.489 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:39:55.490 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:39:55.491 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:39:55.492 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:39:55.493 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:49:24.082 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:49:24.088 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:49:24.089 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:49:24.089 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:49:24.090 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:49:24.090 [Calculator.java] INFO  Calculator - Factorial for number: 0
+2021-03-13 01:49:24.091 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:49:24.091 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:49:24.091 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:49:24.092 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:49:24.092 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:49:24.093 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:49:24.093 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:49:24.099 [Calculator.java] INFO  Calculator - Factorial for number: 50
+2021-03-13 01:49:24.099 [Calculator.java] INFO  Calculator - Factorial for number: 49
+2021-03-13 01:49:24.100 [Calculator.java] INFO  Calculator - Factorial for number: 48
+2021-03-13 01:49:24.100 [Calculator.java] INFO  Calculator - Factorial for number: 47
+2021-03-13 01:49:24.101 [Calculator.java] INFO  Calculator - Factorial for number: 46
+2021-03-13 01:49:24.101 [Calculator.java] INFO  Calculator - Factorial for number: 45
+2021-03-13 01:49:24.102 [Calculator.java] INFO  Calculator - Factorial for number: 44
+2021-03-13 01:49:24.102 [Calculator.java] INFO  Calculator - Factorial for number: 43
+2021-03-13 01:49:24.103 [Calculator.java] INFO  Calculator - Factorial for number: 42
+2021-03-13 01:49:24.103 [Calculator.java] INFO  Calculator - Factorial for number: 41
+2021-03-13 01:49:24.104 [Calculator.java] INFO  Calculator - Factorial for number: 40
+2021-03-13 01:49:24.104 [Calculator.java] INFO  Calculator - Factorial for number: 39
+2021-03-13 01:49:24.105 [Calculator.java] INFO  Calculator - Factorial for number: 38
+2021-03-13 01:49:24.105 [Calculator.java] INFO  Calculator - Factorial for number: 37
+2021-03-13 01:49:24.106 [Calculator.java] INFO  Calculator - Factorial for number: 36
+2021-03-13 01:49:24.106 [Calculator.java] INFO  Calculator - Factorial for number: 35
+2021-03-13 01:49:24.107 [Calculator.java] INFO  Calculator - Factorial for number: 34
+2021-03-13 01:49:24.107 [Calculator.java] INFO  Calculator - Factorial for number: 33
+2021-03-13 01:49:24.108 [Calculator.java] INFO  Calculator - Factorial for number: 32
+2021-03-13 01:49:24.109 [Calculator.java] INFO  Calculator - Factorial for number: 31
+2021-03-13 01:49:24.109 [Calculator.java] INFO  Calculator - Factorial for number: 30
+2021-03-13 01:49:24.110 [Calculator.java] INFO  Calculator - Factorial for number: 29
+2021-03-13 01:49:24.110 [Calculator.java] INFO  Calculator - Factorial for number: 28
+2021-03-13 01:49:24.111 [Calculator.java] INFO  Calculator - Factorial for number: 27
+2021-03-13 01:49:24.111 [Calculator.java] INFO  Calculator - Factorial for number: 26
+2021-03-13 01:49:24.112 [Calculator.java] INFO  Calculator - Factorial for number: 25
+2021-03-13 01:49:24.113 [Calculator.java] INFO  Calculator - Factorial for number: 24
+2021-03-13 01:49:24.113 [Calculator.java] INFO  Calculator - Factorial for number: 23
+2021-03-13 01:49:24.114 [Calculator.java] INFO  Calculator - Factorial for number: 22
+2021-03-13 01:49:24.114 [Calculator.java] INFO  Calculator - Factorial for number: 21
+2021-03-13 01:49:24.115 [Calculator.java] INFO  Calculator - Factorial for number: 20
+2021-03-13 01:49:24.116 [Calculator.java] INFO  Calculator - Factorial for number: 19
+2021-03-13 01:49:24.116 [Calculator.java] INFO  Calculator - Factorial for number: 18
+2021-03-13 01:49:24.117 [Calculator.java] INFO  Calculator - Factorial for number: 17
+2021-03-13 01:49:24.118 [Calculator.java] INFO  Calculator - Factorial for number: 16
+2021-03-13 01:49:24.131 [Calculator.java] INFO  Calculator - Factorial for number: 15
+2021-03-13 01:49:24.131 [Calculator.java] INFO  Calculator - Factorial for number: 14
+2021-03-13 01:49:24.131 [Calculator.java] INFO  Calculator - Factorial for number: 13
+2021-03-13 01:49:24.132 [Calculator.java] INFO  Calculator - Factorial for number: 12
+2021-03-13 01:49:24.132 [Calculator.java] INFO  Calculator - Factorial for number: 11
+2021-03-13 01:49:24.132 [Calculator.java] INFO  Calculator - Factorial for number: 10
+2021-03-13 01:49:24.133 [Calculator.java] INFO  Calculator - Factorial for number: 9
+2021-03-13 01:49:24.133 [Calculator.java] INFO  Calculator - Factorial for number: 8
+2021-03-13 01:49:24.133 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 01:49:24.134 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 01:49:24.134 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 01:49:24.134 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 01:49:24.135 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:49:24.136 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:49:24.136 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:49:24.137 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 01:49:24.138 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 01:49:24.138 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 01:49:24.144 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:49:24.145 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:49:24.145 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 01:49:24.146 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 01:49:24.148 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 01:49:24.149 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 01:49:24.149 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 01:49:24.150 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 01:49:24.151 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 01:49:24.151 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 01:49:24.152 [Calculator.java] INFO  Calculator - [ 10.0 powers 0.0
+2021-03-13 01:49:24.152 [Calculator.java] INFO  Calculator - Result of power 1.0]
+2021-03-13 01:49:24.152 [Calculator.java] INFO  Calculator - [ 3.1 powers 4.5
+2021-03-13 01:49:24.153 [Calculator.java] INFO  Calculator - Result of power 162.6026511489619]
+2021-03-13 01:49:24.153 [Calculator.java] INFO  Calculator - [ 2.5 powers -1.4
+2021-03-13 01:49:24.153 [Calculator.java] INFO  Calculator - Result of power 0.2772579372620586]
+2021-03-13 01:49:24.154 [Calculator.java] INFO  Calculator - [ -2.0 powers -2.0
+2021-03-13 01:49:24.154 [Calculator.java] INFO  Calculator - Result of power 0.25]
+2021-03-13 01:49:24.155 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 01:49:24.155 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:03:44.149 [Calculator.java] INFO  Calculator - [Log of : 2.3
+2021-03-13 02:03:44.155 [Calculator.java] INFO  Calculator - Result of Log: 0.8329091229351039]
+2021-03-13 02:03:44.156 [Calculator.java] INFO  Calculator - [Log of : 10.0
+2021-03-13 02:03:44.156 [Calculator.java] INFO  Calculator - Result of Log: 2.302585092994046]
+2021-03-13 02:03:44.159 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:03:44.160 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:03:44.160 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:03:44.161 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:03:44.161 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:03:44.161 [Calculator.java] INFO  Calculator - Factorial for number: 0
+2021-03-13 02:03:44.162 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 02:03:44.162 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 02:03:44.162 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:03:44.163 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:03:44.163 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:03:44.163 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:03:44.164 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:03:44.165 [Calculator.java] INFO  Calculator - [Log of : 50.0
+2021-03-13 02:03:44.165 [Calculator.java] INFO  Calculator - Result of Log: 3.912023005428146]
+2021-03-13 02:03:44.166 [Calculator.java] INFO  Calculator - [Log of : 3.0
+2021-03-13 02:03:44.166 [Calculator.java] INFO  Calculator - Result of Log: 1.0986122886681098]
+2021-03-13 02:03:44.167 [Calculator.java] INFO  Calculator - Factorial for number: 50
+2021-03-13 02:03:44.168 [Calculator.java] INFO  Calculator - Factorial for number: 49
+2021-03-13 02:03:44.168 [Calculator.java] INFO  Calculator - Factorial for number: 48
+2021-03-13 02:03:44.169 [Calculator.java] INFO  Calculator - Factorial for number: 47
+2021-03-13 02:03:44.169 [Calculator.java] INFO  Calculator - Factorial for number: 46
+2021-03-13 02:03:44.169 [Calculator.java] INFO  Calculator - Factorial for number: 45
+2021-03-13 02:03:44.170 [Calculator.java] INFO  Calculator - Factorial for number: 44
+2021-03-13 02:03:44.171 [Calculator.java] INFO  Calculator - Factorial for number: 43
+2021-03-13 02:03:44.171 [Calculator.java] INFO  Calculator - Factorial for number: 42
+2021-03-13 02:03:44.171 [Calculator.java] INFO  Calculator - Factorial for number: 41
+2021-03-13 02:03:44.172 [Calculator.java] INFO  Calculator - Factorial for number: 40
+2021-03-13 02:03:44.172 [Calculator.java] INFO  Calculator - Factorial for number: 39
+2021-03-13 02:03:44.173 [Calculator.java] INFO  Calculator - Factorial for number: 38
+2021-03-13 02:03:44.173 [Calculator.java] INFO  Calculator - Factorial for number: 37
+2021-03-13 02:03:44.173 [Calculator.java] INFO  Calculator - Factorial for number: 36
+2021-03-13 02:03:44.174 [Calculator.java] INFO  Calculator - Factorial for number: 35
+2021-03-13 02:03:44.174 [Calculator.java] INFO  Calculator - Factorial for number: 34
+2021-03-13 02:03:44.175 [Calculator.java] INFO  Calculator - Factorial for number: 33
+2021-03-13 02:03:44.175 [Calculator.java] INFO  Calculator - Factorial for number: 32
+2021-03-13 02:03:44.175 [Calculator.java] INFO  Calculator - Factorial for number: 31
+2021-03-13 02:03:44.176 [Calculator.java] INFO  Calculator - Factorial for number: 30
+2021-03-13 02:03:44.176 [Calculator.java] INFO  Calculator - Factorial for number: 29
+2021-03-13 02:03:44.177 [Calculator.java] INFO  Calculator - Factorial for number: 28
+2021-03-13 02:03:44.178 [Calculator.java] INFO  Calculator - Factorial for number: 27
+2021-03-13 02:03:44.178 [Calculator.java] INFO  Calculator - Factorial for number: 26
+2021-03-13 02:03:44.179 [Calculator.java] INFO  Calculator - Factorial for number: 25
+2021-03-13 02:03:44.179 [Calculator.java] INFO  Calculator - Factorial for number: 24
+2021-03-13 02:03:44.179 [Calculator.java] INFO  Calculator - Factorial for number: 23
+2021-03-13 02:03:44.180 [Calculator.java] INFO  Calculator - Factorial for number: 22
+2021-03-13 02:03:44.180 [Calculator.java] INFO  Calculator - Factorial for number: 21
+2021-03-13 02:03:44.181 [Calculator.java] INFO  Calculator - Factorial for number: 20
+2021-03-13 02:03:44.181 [Calculator.java] INFO  Calculator - Factorial for number: 19
+2021-03-13 02:03:44.181 [Calculator.java] INFO  Calculator - Factorial for number: 18
+2021-03-13 02:03:44.182 [Calculator.java] INFO  Calculator - Factorial for number: 17
+2021-03-13 02:03:44.182 [Calculator.java] INFO  Calculator - Factorial for number: 16
+2021-03-13 02:03:44.183 [Calculator.java] INFO  Calculator - Factorial for number: 15
+2021-03-13 02:03:44.183 [Calculator.java] INFO  Calculator - Factorial for number: 14
+2021-03-13 02:03:44.183 [Calculator.java] INFO  Calculator - Factorial for number: 13
+2021-03-13 02:03:44.184 [Calculator.java] INFO  Calculator - Factorial for number: 12
+2021-03-13 02:03:44.184 [Calculator.java] INFO  Calculator - Factorial for number: 11
+2021-03-13 02:03:44.185 [Calculator.java] INFO  Calculator - Factorial for number: 10
+2021-03-13 02:03:44.185 [Calculator.java] INFO  Calculator - Factorial for number: 9
+2021-03-13 02:03:44.186 [Calculator.java] INFO  Calculator - Factorial for number: 8
+2021-03-13 02:03:44.187 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 02:03:44.187 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 02:03:44.187 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:03:44.188 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:03:44.188 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:03:44.188 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:03:44.189 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:03:44.189 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:03:44.189 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:03:44.190 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:03:44.192 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 02:03:44.192 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 02:03:44.192 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 02:03:44.193 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 02:03:44.194 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 02:03:44.201 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 02:03:44.201 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 02:03:44.201 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 02:03:44.202 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 02:03:44.203 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:03:44.203 [Calculator.java] INFO  Calculator - [ 10.0 powers 0.0
+2021-03-13 02:03:44.204 [Calculator.java] INFO  Calculator - Result of power 1.0]
+2021-03-13 02:03:44.204 [Calculator.java] INFO  Calculator - [ 3.1 powers 4.5
+2021-03-13 02:03:44.206 [Calculator.java] INFO  Calculator - Result of power 162.6026511489619]
+2021-03-13 02:03:44.208 [Calculator.java] INFO  Calculator - [ 2.5 powers -1.4
+2021-03-13 02:03:44.208 [Calculator.java] INFO  Calculator - Result of power 0.2772579372620586]
+2021-03-13 02:03:44.209 [Calculator.java] INFO  Calculator - [ 0.0 powers -1.0
+2021-03-13 02:03:44.209 [Calculator.java] INFO  Calculator - Result of power Infinity]
+2021-03-13 02:03:44.210 [Calculator.java] INFO  Calculator - [ -2.0 powers -2.0
+2021-03-13 02:03:44.214 [Calculator.java] INFO  Calculator - Result of power 0.25]
+2021-03-13 02:03:44.214 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 02:03:44.215 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:04:09.353 [Calculator.java] INFO  Calculator - [Log of : 2.3
+2021-03-13 02:04:09.361 [Calculator.java] INFO  Calculator - Result of Log: 0.8329091229351039]
+2021-03-13 02:04:09.362 [Calculator.java] INFO  Calculator - [Log of : 10.0
+2021-03-13 02:04:09.362 [Calculator.java] INFO  Calculator - Result of Log: 2.302585092994046]
+2021-03-13 02:04:09.366 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:04:09.367 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:04:09.368 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:04:09.368 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:04:09.369 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:04:09.369 [Calculator.java] INFO  Calculator - Factorial for number: 0
+2021-03-13 02:04:09.370 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 02:04:09.370 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 02:04:09.372 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:04:09.373 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:04:09.374 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:04:09.375 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:04:09.376 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:04:09.377 [Calculator.java] INFO  Calculator - [Log of : 50.0
+2021-03-13 02:04:09.378 [Calculator.java] INFO  Calculator - Result of Log: 3.912023005428146]
+2021-03-13 02:04:09.379 [Calculator.java] INFO  Calculator - [Log of : 3.0
+2021-03-13 02:04:09.379 [Calculator.java] INFO  Calculator - Result of Log: 1.0986122886681098]
+2021-03-13 02:04:09.381 [Calculator.java] INFO  Calculator - Factorial for number: 50
+2021-03-13 02:04:09.382 [Calculator.java] INFO  Calculator - Factorial for number: 49
+2021-03-13 02:04:09.382 [Calculator.java] INFO  Calculator - Factorial for number: 48
+2021-03-13 02:04:09.383 [Calculator.java] INFO  Calculator - Factorial for number: 47
+2021-03-13 02:04:09.384 [Calculator.java] INFO  Calculator - Factorial for number: 46
+2021-03-13 02:04:09.385 [Calculator.java] INFO  Calculator - Factorial for number: 45
+2021-03-13 02:04:09.386 [Calculator.java] INFO  Calculator - Factorial for number: 44
+2021-03-13 02:04:09.387 [Calculator.java] INFO  Calculator - Factorial for number: 43
+2021-03-13 02:04:09.388 [Calculator.java] INFO  Calculator - Factorial for number: 42
+2021-03-13 02:04:09.389 [Calculator.java] INFO  Calculator - Factorial for number: 41
+2021-03-13 02:04:09.390 [Calculator.java] INFO  Calculator - Factorial for number: 40
+2021-03-13 02:04:09.390 [Calculator.java] INFO  Calculator - Factorial for number: 39
+2021-03-13 02:04:09.391 [Calculator.java] INFO  Calculator - Factorial for number: 38
+2021-03-13 02:04:09.392 [Calculator.java] INFO  Calculator - Factorial for number: 37
+2021-03-13 02:04:09.393 [Calculator.java] INFO  Calculator - Factorial for number: 36
+2021-03-13 02:04:09.394 [Calculator.java] INFO  Calculator - Factorial for number: 35
+2021-03-13 02:04:09.394 [Calculator.java] INFO  Calculator - Factorial for number: 34
+2021-03-13 02:04:09.395 [Calculator.java] INFO  Calculator - Factorial for number: 33
+2021-03-13 02:04:09.396 [Calculator.java] INFO  Calculator - Factorial for number: 32
+2021-03-13 02:04:09.396 [Calculator.java] INFO  Calculator - Factorial for number: 31
+2021-03-13 02:04:09.397 [Calculator.java] INFO  Calculator - Factorial for number: 30
+2021-03-13 02:04:09.397 [Calculator.java] INFO  Calculator - Factorial for number: 29
+2021-03-13 02:04:09.398 [Calculator.java] INFO  Calculator - Factorial for number: 28
+2021-03-13 02:04:09.400 [Calculator.java] INFO  Calculator - Factorial for number: 27
+2021-03-13 02:04:09.401 [Calculator.java] INFO  Calculator - Factorial for number: 26
+2021-03-13 02:04:09.402 [Calculator.java] INFO  Calculator - Factorial for number: 25
+2021-03-13 02:04:09.402 [Calculator.java] INFO  Calculator - Factorial for number: 24
+2021-03-13 02:04:09.403 [Calculator.java] INFO  Calculator - Factorial for number: 23
+2021-03-13 02:04:09.404 [Calculator.java] INFO  Calculator - Factorial for number: 22
+2021-03-13 02:04:09.404 [Calculator.java] INFO  Calculator - Factorial for number: 21
+2021-03-13 02:04:09.405 [Calculator.java] INFO  Calculator - Factorial for number: 20
+2021-03-13 02:04:09.406 [Calculator.java] INFO  Calculator - Factorial for number: 19
+2021-03-13 02:04:09.406 [Calculator.java] INFO  Calculator - Factorial for number: 18
+2021-03-13 02:04:09.407 [Calculator.java] INFO  Calculator - Factorial for number: 17
+2021-03-13 02:04:09.408 [Calculator.java] INFO  Calculator - Factorial for number: 16
+2021-03-13 02:04:09.409 [Calculator.java] INFO  Calculator - Factorial for number: 15
+2021-03-13 02:04:09.409 [Calculator.java] INFO  Calculator - Factorial for number: 14
+2021-03-13 02:04:09.410 [Calculator.java] INFO  Calculator - Factorial for number: 13
+2021-03-13 02:04:09.411 [Calculator.java] INFO  Calculator - Factorial for number: 12
+2021-03-13 02:04:09.411 [Calculator.java] INFO  Calculator - Factorial for number: 11
+2021-03-13 02:04:09.412 [Calculator.java] INFO  Calculator - Factorial for number: 10
+2021-03-13 02:04:09.412 [Calculator.java] INFO  Calculator - Factorial for number: 9
+2021-03-13 02:04:09.412 [Calculator.java] INFO  Calculator - Factorial for number: 8
+2021-03-13 02:04:09.413 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 02:04:09.413 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 02:04:09.414 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:04:09.415 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:04:09.415 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:04:09.416 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:04:09.416 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:04:09.417 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:04:09.417 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:04:09.418 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:04:09.420 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 02:04:09.421 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 02:04:09.422 [Calculator.java] INFO  Calculator - [Square root of : 121.0
+2021-03-13 02:04:09.423 [Calculator.java] INFO  Calculator - Result of Square root : 11.0]
+2021-03-13 02:04:09.425 [Calculator.java] INFO  Calculator - [Square root of : 50.0
+2021-03-13 02:04:09.425 [Calculator.java] INFO  Calculator - Result of Square root : 7.0710678118654755]
+2021-03-13 02:04:09.426 [Calculator.java] INFO  Calculator - [Square root of : 125.0
+2021-03-13 02:04:09.427 [Calculator.java] INFO  Calculator - Result of Square root : 11.180339887498949]
+2021-03-13 02:04:09.429 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 02:04:09.429 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:04:09.430 [Calculator.java] INFO  Calculator - [ 10.0 powers 0.0
+2021-03-13 02:04:09.430 [Calculator.java] INFO  Calculator - Result of power 1.0]
+2021-03-13 02:04:09.431 [Calculator.java] INFO  Calculator - [ 3.1 powers 4.5
+2021-03-13 02:04:09.432 [Calculator.java] INFO  Calculator - Result of power 162.6026511489619]
+2021-03-13 02:04:09.432 [Calculator.java] INFO  Calculator - [ 2.5 powers -1.4
+2021-03-13 02:04:09.433 [Calculator.java] INFO  Calculator - Result of power 0.2772579372620586]
+2021-03-13 02:04:09.433 [Calculator.java] INFO  Calculator - [ 0.0 powers -1.0
+2021-03-13 02:04:09.445 [Calculator.java] INFO  Calculator - Result of power Infinity]
+2021-03-13 02:04:09.446 [Calculator.java] INFO  Calculator - [ -2.0 powers -2.0
+2021-03-13 02:04:09.447 [Calculator.java] INFO  Calculator - Result of power 0.25]
+2021-03-13 02:04:09.447 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 02:04:09.447 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:05:14.185 [Calculator.java] INFO  Calculator - [Square root of : 4.0
+2021-03-13 02:05:14.194 [Calculator.java] INFO  Calculator - Result of Square root : 2.0]
+2021-03-13 02:05:20.862 [Calculator.java] INFO  Calculator - FACTORIAL OF 7
+2021-03-13 02:05:20.863 [Calculator.java] INFO  Calculator - Factorial for number: 7
+2021-03-13 02:05:20.865 [Calculator.java] INFO  Calculator - Factorial for number: 6
+2021-03-13 02:05:20.866 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-13 02:05:20.867 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-13 02:05:20.868 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-13 02:05:20.869 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-13 02:05:20.870 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-13 02:05:20.872 [Calculator.java] INFO  Calculator - RESULT OF FACTORIAL IS 5040
+2021-03-13 02:05:29.363 [Calculator.java] INFO  Calculator - [ 2.0 powers 3.0
+2021-03-13 02:05:29.365 [Calculator.java] INFO  Calculator - Result of power 8.0]
+2021-03-13 02:05:31.879 [Calculator.java] INFO  Calculator - EXITING APPLICATION

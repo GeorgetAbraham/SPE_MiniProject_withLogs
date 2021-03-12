@@ -6,7 +6,7 @@
         </Console>
         <File name="FileAppender" fileName="Calculator.log" immediateFlush="false" append="true">
             <!-- <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%F] %-5level %logger{36} - %msg%n"/> -->
-            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS/IST} [%F] %-5level %logger{36} - %msg%n"/>
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS}{IST} [%F] %-5level %logger{36} - %msg%n"/>
         </File>
     </Appenders>
     <Loggers>

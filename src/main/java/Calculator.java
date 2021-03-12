@@ -20,7 +20,7 @@ public class Calculator{
         return a/b;
     }
 
-    public static int factorial(int x) {
+    public int factorial(int x){
         logger.info("Factorial for number: "+x);
         if (x == 0 || x==1) {
             return 1;
@@ -28,9 +28,43 @@ public class Calculator{
         if(x>1){
             return x*factorial(x-1);}
         else {
+            logger.error("Factorial not defined for negative number :"+x);
             throw new ArithmeticException("The entered number is negative,no factorial defined");
         }
     }
+
+    public double naturallog(double x){
+        if(x<=0){
+            logger.info("[Log of : "+x+"]");
+            logger.error("Non positive number log does not exist");
+            throw new ArithmeticException("Log of non positive numbers undefined");
+        }
+        logger.info("[Log of : "+x);
+        double y=Math.log(x);
+        logger.info("Result of Log: "+y+"]");
+        return y;
+    }
+
+    public double square_root(double x){
+        logger.info("[Square root of : "+x);
+        double y = Math.sqrt(x);
+        logger.info("Result of Square root : "+y+"]");
+        return y;
+    }
+
+    public double power(double x,double y){
+        logger.info("[ "+x+" powers "+y);
+        if(x==0 && y==0){
+            logger.error("Illegal operation of 0 power 0]");
+            throw new ArithmeticException("0 power 0 not defined");
+        }
+        else{
+            logger.info("Result of power "+Math.pow(x,y)+"]");
+            return Math.pow(x,y);
+        }
+    }
+
+
 
     public static void main(String[] args){
         System.out.println("Hello friend");
@@ -38,6 +72,7 @@ public class Calculator{
         int a;
         Scanner obj=new Scanner(System.in);
         boolean state=true;
+        Calculator c=new Calculator();
         while(state){
             System.out.println("Enter any of the following options to perform related operations");
             System.out.println("1.Square Root");
@@ -49,30 +84,61 @@ public class Calculator{
             if(a==1){
                 System.out.println("Enter number for which to find square root\n");
                 double x=obj.nextDouble();
-                System.out.println(Math.sqrt(x));
-                logger.info("Exponentiation for the number : "+x);
+                try{
+                    double y=c.square_root(x);
+                    System.out.println(y);
+                }
+                catch(ArithmeticException e){
+                    System.out.println(e);
+                }
+
+//                logger.info("Exponentiation for the number : "+x);
             }
+
             else if(a==2){
                 System.out.println("Enter number for which to find Factorial\n");
                 int x=obj.nextInt();
-                System.out.println(factorial(x));
+                logger.info("FACTORIAL OF "+x);
+                try{
+                    int y=c.factorial(x);
+                    System.out.println(y);
+                    logger.info("RESULT OF FACTORIAL IS "+y);
+                }
+                catch(ArithmeticException e){
+                    System.out.println(e);
+                }
 //                break;
             }
+
             else if(a==3){
                 System.out.println("Enter number for which to find log\n");
                 double x=obj.nextDouble();
-                System.out.println(Math.log(x));
-                logger.info("Natural log for number: "+x);
+                try{
+                    double y=c.naturallog(x);
+                    System.out.println(y);
+                }
+                catch (ArithmeticException e){
+                    System.out.println(e);
+                }
+
+//                logger.info("Natural log for number: "+x);
             }
             else if(a==4){
                 System.out.println("Enter numbers x and b for exponentiation\n");
                 double x,b;
                 x=obj.nextDouble();
                 b=obj.nextDouble();
-                System.out.println(Math.pow(x,b));
-                logger.info("Exponentiation of: "+x+" with "+b);
+                try{
+                    System.out.println(c.power(x,b));
+                }
+                catch(ArithmeticException e){
+                    System.out.println(e);
+                }
+
+//                logger.info("Exponentiation of: "+x+" with "+b);
             }
             else{
+                logger.info("EXITING APPLICATION");
                 state=false;
                 break;
             }
@@ -82,7 +148,4 @@ public class Calculator{
 
 
     }
-
-
-
 }
