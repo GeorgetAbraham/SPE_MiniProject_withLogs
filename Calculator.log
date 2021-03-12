@@ -1,0 +1,16 @@
+2021-03-12 12:33:41.014 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-12 12:33:41.018 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-12 12:33:41.018 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-12 12:33:41.019 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-12 12:33:41.019 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-12 15:28:40.521 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-12 15:28:40.525 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-12 15:28:40.525 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-12 15:28:40.526 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-12 15:28:40.526 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-12 15:29:06.894 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-12 15:29:06.900 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-12 15:29:06.900 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-12 15:29:06.901 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-12 15:29:06.901 [Calculator.java] INFO  Calculator - Factorial for number: 1
+2021-03-12 15:31:27.886 [Calculator.java] INFO  Calculator - Natural log for number: 10.0
