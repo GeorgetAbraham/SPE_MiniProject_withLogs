@@ -15,3 +15,8 @@
 2021-03-12 15:29:06.901 [Calculator.java] INFO  Calculator - Factorial for number: 1
 2021-03-12 15:31:27.886 [Calculator.java] INFO  Calculator - Natural log for number: 10.0
 2021-03-12 17:14:05.120 [Calculator.java] INFO  Calculator - Exponentiation of: 4.0 with 5.0
+2021-03-12 19:37:57,131 [Calculator.java] INFO  Calculator - Factorial for number: 5
+2021-03-12 19:37:57,167 [Calculator.java] INFO  Calculator - Factorial for number: 4
+2021-03-12 19:37:57,168 [Calculator.java] INFO  Calculator - Factorial for number: 3
+2021-03-12 19:37:57,168 [Calculator.java] INFO  Calculator - Factorial for number: 2
+2021-03-12 19:37:57,169 [Calculator.java] INFO  Calculator - Factorial for number: 1
