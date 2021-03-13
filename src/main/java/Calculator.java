@@ -21,46 +21,50 @@ public class Calculator{
     }
 
     public int factorial(int x){
-        logger.info("Factorial for number: "+x);
+//        logger.info("Factorial for number: "+x);
         if (x == 0 || x==1) {
             return 1;
         }
         if(x>1){
             return x*factorial(x-1);}
         else {
-            logger.error("Factorial not defined for negative number :"+x);
+//            logger.error("Factorial not defined for negative number :"+x);
             throw new ArithmeticException("The entered number is negative,no factorial defined");
         }
     }
 
     public double naturallog(double x){
+
+        logger.info("[LOG] - "+x);
         if(x<=0){
-            logger.info("[Log of : "+x+"]");
-            logger.error("Non positive number log does not exist");
+//            logger.info("[Log of : "+x+"]");
+            logger.error("[LOG-ERROR] - 0");
             throw new ArithmeticException("Log of non positive numbers undefined");
         }
-        logger.info("[Log of : "+x);
+
         double y=Math.log(x);
-        logger.info("Result of Log: "+y+"]");
+        logger.info("[LOG-RESULT] - "+y);
         return y;
     }
 
     public double square_root(double x){
-        logger.info("[Square root of : "+x);
+        logger.info("[SQRT] - "+x);
         double y = Math.sqrt(x);
-        logger.info("Result of Square root : "+y+"]");
+        logger.info("[SQRT-RESULT] - "+y);
         return y;
     }
 
     public double power(double x,double y){
-        logger.info("[ "+x+" powers "+y);
+        logger.info("[POW] - "+x+", "+y);
         if(x==0 && y==0){
-            logger.error("Illegal operation of 0 power 0]");
+            logger.error("[POW-ERROR] - 0");
             throw new ArithmeticException("0 power 0 not defined");
         }
         else{
-            logger.info("Result of power "+Math.pow(x,y)+"]");
-            return Math.pow(x,y);
+            double h=Math.pow(x,y);
+            logger.info("[POW-RESULT] - "+h);
+//            logger.info("Result of power "+Math.pow(x,y)+"]");
+            return h;
         }
     }
 
@@ -98,13 +102,14 @@ public class Calculator{
             else if(a==2){
                 System.out.println("Enter number for which to find Factorial\n");
                 int x=obj.nextInt();
-                logger.info("FACTORIAL OF "+x);
+                logger.info("[FACTORIAL] - "+x);
                 try{
                     int y=c.factorial(x);
                     System.out.println(y);
-                    logger.info("RESULT OF FACTORIAL IS "+y);
+                    logger.info("[FACTORIAL-RESULT] - "+y);
                 }
                 catch(ArithmeticException e){
+                    logger.error("[FACTORIAL-ERROR] - 0");
                     System.out.println(e);
                 }
 //                break;
@@ -138,7 +143,7 @@ public class Calculator{
 //                logger.info("Exponentiation of: "+x+" with "+b);
             }
             else{
-                logger.info("EXITING APPLICATION");
+                logger.info("[EXIT] - 1");
                 state=false;
                 break;
             }
