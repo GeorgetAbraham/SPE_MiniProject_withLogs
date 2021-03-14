@@ -1,0 +1,2 @@
+docker pull georgetabraham/calculator_withlogs:latest
+docker create -it --name user1 georgetabraham/calculator_withlogs:latest /bin/bash
