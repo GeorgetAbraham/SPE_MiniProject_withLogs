@@ -17,13 +17,19 @@ public class Tester {
     @Test
     public void sqrt_truepositive(){
         System.out.println("Testing true positive cases for square root\n");
+        assertEquals("sqrt of 0.0 is failed",0.0,calc.square_root(0.0),delta);
         assertEquals("sqrt of positive double number is failed",7.0710,calc.square_root(50.0),delta);
         assertEquals("sqrt of positive integer number is failed",11,calc.square_root(121),delta);
+        assertEquals("sqrt of positive double number is failed",Double.POSITIVE_INFINITY,calc.square_root(Double.POSITIVE_INFINITY),delta);
+        assertEquals("sqrt of positive double number is failed",Double.NaN,calc.square_root(Double.NEGATIVE_INFINITY),delta);
+
     }
 
     @Test
     public void sqrt_truenegative(){
         System.out.println("Testing true negative cases for square root\n");
+        assertNotEquals("sqrt of positive double number is failed",-1.0710,calc.square_root(Double.NEGATIVE_INFINITY),delta);
+        assertNotEquals("sqrt of positive double number is failed",-7.0710,calc.square_root(-50.0),delta);
         assertNotEquals("sqrt of positive double number is failed",-7.0710,calc.square_root(50.0),delta);
         assertNotEquals("sqrt of positive integer number is failed",11,calc.square_root(125),delta);
     }
